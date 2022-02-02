@@ -1,0 +1,21 @@
+.wrapper {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -18px;
+    z-index: 99;
+    width: 36px;
+    background-color: rgba($color: #fff, $alpha: 0.35);
+    cursor: pointer;
+    
+    .navButton {
+        width: 100%;
+        user-select: none;
+    }
+
+    &.leftArrow {
+        transform: rotate(180deg);
+        right: unset;
+        left: 5px;
+    }
+}
